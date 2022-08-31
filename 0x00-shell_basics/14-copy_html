@@ -1,2 +1,2 @@
 #!/bin/bash
-find myDir -name *.html -type f -exec sh -c cp /bin/bash ~/otherDir {} +
+cp -rua *.html ../
