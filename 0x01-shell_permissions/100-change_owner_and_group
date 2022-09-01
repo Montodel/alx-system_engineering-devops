@@ -1,2 +1,2 @@
 #!/bin/bash
-chown staff betty:vincent .
+chown -hR betty:vincent .
