@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Program that prints I am alive infinite times to /tmp/my_process
+# This script indefinitely writes a message to a file
 
-while true
+while 'true'
 do
-	echo "I am alive!" >> /tmp/my_process
-	sleep 2
+    echo "I am alive!" >> /tmp/my_process
+    sleep 2
 done
