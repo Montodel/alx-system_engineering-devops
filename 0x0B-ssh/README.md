@@ -23,5 +23,6 @@ Repository to study the following Topic: How to access a remote server with ssh 
 
 :two: **[Client configuration file](../2-ssh_config)**
       - SSH configuration file configured to use the private key `~/.ssh/school and to refuse authentication using a password.
+
 :four: **[Client configuration file](../100-puppet_ssh_config.pp)** 
        - Making changes to SSH configuration file using Puppet. The ssh_config file is configured to use private key and refuse password authentication.
