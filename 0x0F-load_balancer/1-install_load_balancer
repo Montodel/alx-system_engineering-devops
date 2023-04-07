@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Install and configure on your server
+
+# Installing HAproxy
+if [ ! -x "$(haproxy -version)" ]; then
+    sudo apt update && sudo apt upgrade -y
+    sudo apt -y install haproxy
+fi
+
+# Make sure HAproxy can be managed via an init script
+sudo sed -i "s/ENABLED=0/ENABLED=1/" /etc/default/haproxy
+
+# Configure HAproxy to web-01 and web-02
+# Distributes with roundrobin
+sudo sed -i "$ a\ \nlisten holbie3908\n \
+\tbind *:80\n\tmode http\n\tbalance roundrobin\n \
+\tserver 107742-web-01 34.207.120.198 check\n \
+\tserver 107742-web-02 52.201.192.135 check" /etc/haproxy/haproxy.cfg
+sudo service haproxy start
