@@ -1,7 +1,7 @@
 # Postmortem
 
 <p align="center">
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cartoonstock.com%2Fdirectory%2Fd%2Fdebugging.asp&psig=AOvVaw1MDmY9JntLGEZUZ-2k9Rne&ust=1684167586521000&source=images&cd=vfe&ved=0CBMQjhxqFwoTCPC4uZKb9f4CFQAAAAAdAAAAABAN" width="500" title="joke">
+    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Faustenarts%2Fdebugging-jokes%2F&psig=AOvVaw1MDmY9JntLGEZUZ-2k9Rne&ust=1684167586521000&source=images&cd=vfe&ved=0CBMQjhxqFwoTCPC4uZKb9f4CFQAAAAAdAAAAABAZ" width="500" title="joke">
 </p>
 
 # Incident Report
