@@ -1,10 +1,5 @@
-# Postmortem
-
-<p align="center">
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Faustenarts%2Fdebugging-jokes%2F&psig=AOvVaw1MDmY9JntLGEZUZ-2k9Rne&ust=1684167586521000&source=images&cd=vfe&ved=0CBMQjhxqFwoTCPC4uZKb9f4CFQAAAAAdAAAAABAZ" width="500" title="joke">
-</p>
-
-# Incident Report
+# 0x19. Postmortem
+![I WILL FIND YOU AND I WILL FIX YOU](https://miro.medium.com/max/1400/0*kHoWD7gJ0PC9GmBK.jpg)
 
 ## Issue Summary
 - **Duration:** The outage lasted for 2 hours, from 2:00 PM to 4:00 PM GMT+3.
